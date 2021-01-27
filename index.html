@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kojo's Website</title>
+    <meta name="description" content="A computer science project portfolio.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cousine">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--Navigation Bar Starts-->
+    <nav class="navbar navbar-expand-lg fixed-top bgcolor">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-item nav-link flex-item" href="#hero">Top</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link flex-item" href="#about-me">About Me</a>          
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link flex-item" href="#technical-skills">Technical Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link flex-item" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link flex-item" href="#contact-me">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+<!--Navigation bar ends-->      
+
+<!-- Hero Section Start-->
+<section id= "hero">
+    <div class="hero container row">
+        <div class="col-md-8 justify-content-center">
+            <h1>Hello World, my</h1>
+            <h1>name is Kojo Obeng-Arhin</h1>
+            <h1>and I'm <span class="animate"></span></h1>
+            <div>
+                <a href="https://github.com/KojoObeng"><i class= "fa fa-github" style= "font-size: 60px; color:rgb(107, 165, 219)"></i></a>
+            </div>
+        </div>
+        <div class ="col-md-4 d-flex justify-content-center">
+            <img class= "img" src="images/profile-pic.png">
+        </div>
+    </div>
+</section>
+<!-- Hero Section End-->
+<!-- About Me Section Starts-->
+<section id= "about-me">
+    <div class= "container">
+        <div>
+        <div>
+            <h1 class= "section-title">About Me</h1>
+            <p>Hi there! My name is Kojo and I'm a BBA/BMATH graduate from University of Waterloo and Wilfrid Laurier University. I'm always looking to add to my skill set, enjoy learning with friends, and working on group projects. In my spare time, I like to watch the Philadelphia Eagles and Liverpool FC dominate their respective leagues and playing Tetris.</p>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section id= "technical-skills">
+    <div class= "container">
+        <div>
+            <div>
+                <h1 class= "section-title">Technical Skills</h1>
+                <p>Here are some of the skills that I know:</p>
+            </div>
+            <div>
+                <div class= "row">
+                    <div class= "col-md-6 d-flex mb-5">
+                        <div class= "card-wrapper">
+                            <div class= "content">
+                                <div class= "face-front z-depth-2 d-flex">
+                                    <div class= "card-body d-flex align-items-center">
+                                        <div>
+                                        <h5 class= "card-title">Languages</h5>
+                                        <p class = "card-text">From most to least proficient:</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class= "face-back z-depth-2 d-flex">
+                                    <div class= "card-body d-flex align-items-center justify-content-center">
+                                        <ul>
+                                            <li>Python</li>
+                                            <li>Javascript</li>
+                                            <li>R</li>
+                                            <li>Dart</li>
+                                            <li>HTML/CSS</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class= "col-md-6 d-flex mb-5">
+                        <div class= "card-wrapper">
+                            <div class= "content">
+                                <div class= "face-front z-depth-2 d-flex">
+                                    <div class= "card-body d-flex align-items-center">
+                                        <div>
+                                        <h5 class= "card-title">Frameworks, Software, Platforms and Libraries</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class= "face-back z-depth-2 d-flex">
+                                    <div class= "card-body d-flex align-items-center justify-content-center">
+                                        <ul>
+                                            <li>React</li>
+                                            <li>Node</li>
+                                            <li>ggPlot</li>
+                                            <li>scikit-learn</li>
+                                            <li>Heroku</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a class= "button" href="#">Resume</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id= "projects">
+    <div class= "container text-center">
+        <div>
+        <div class= "col">
+            <h1 class= "section-title">Projects</h1>
+            <p>What I've been working on:</p>
+        </div>
+<!--Cards to display projects-->
+        <div class="row">
+            <div class= "col-md-3 d-flex align-items-stretch">
+                <div class= "card text-center">
+                    <img src="images/spotify-on-youtube.PNG" class= "card-img-top">
+                    <div class= "card-body">
+                        <h5 class= "card-title">Spotify On Youtube</h5>
+                        <p class = "card-text">A dynamic React.js app that allows you to control a Youtube player using your Spotify app.</p>
+                        <a href="https://github.com/KojoObeng/SpotifyonYoutube"><i class= "fa fa-github" style= "font-size: 48px; color:rgb(107, 165, 219)"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class= "col-md-3 d-flex align-items-stretch">
+                <div class= "card text-center">
+                    <img src="images/browser.png" class= "card-img-top">
+                    <div class= "card-body d-flex flex-column">
+                        <h5 class= "card-title">Personal Website</h5>
+                        <p class = "card-text">A computer science portfolio website made using HTML, CSS, JS, and Bootstrap.</p>
+                        <a href="https://github.com/KojoObeng/Personal-Website"><i class= "fa fa-github" style= "font-size: 48px; color:rgb(107, 165, 219)"></i></a>                    
+                    </div>
+                </div>
+            </div>
+            <div class= "col-md-3 d-flex align-items-stretch">
+                <div class= "card text-center">
+                    <img src="images/Trackit.png" class= "card-img-top">
+                    <div class= "card-body">
+                        <h5 class= "card-title">Covid-19 Tracking</h5>
+                        <p class = "card-text">A Covid-19 app that tracks and displays the daily COVID-19 cases in Ontario.</p>
+                        <a href="https://github.com/KojoObeng/covid-19"><i class= "fa fa-github" style= "font-size: 48px; color:rgb(107, 165, 219)"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class= "col-md-3 d-flex align-items-stretch">
+                <div class= "card text-center">
+                    <img src="images/mnist.png" class= "card-img-top">
+                    <div class= "card-body">
+                        <h5 class= "card-title">Madden Ultimate Team</h5>
+                        <p class = "card-text">Linear regression model for Madden Ultimate team cards to determine if they are over/underpriced. </p>
+                        <a href="https://github.com/KojoObeng/Madden-Ultimate-Team"><i class= "fa fa-github" style= "font-size: 48px; color:rgb(107, 165, 219)"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact-me">
+    <div class= "container">
+    <div>
+        <div>
+        <h1 class= "section-title">Contact Me</h1>
+    </div>
+    <div class= "row justify-content-center">
+        <div class= "col-md-3 d-flex">
+            <div class = "card text-center justify-content-center">
+                <div class= "card-body d-flex flex-column">
+                    <img src= "images/envelope.png" alt= "" class= "img-fluid w-25 mb-3 mx-auto d-block">
+                    <h3 class= "card-title">Email</h3>
+                    <p class= "contact-card-text">kobengar@uwaterloo.ca</p>
+                </div>
+            </div>
+        </div>
+                <div class= "col-md-3 d-flex">
+            <div class = "card text-center justify-content-center">
+                <div class= "card-body d-flex flex-column">
+                    <img src= "images/linkedin.png" alt= "" class= "img-fluid w-25 mb-3 mx-auto d-block">
+                    <h3 class= "card-title">LinkedIn</h3>
+                    <div class="contact-card-text">
+                        <a href= "https://www.linkedin.com/in/kojo-obeng/" target= "_blank">Click for my LinkedIn!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!--Loader-->
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+<!--Script file-->
+<script src="typed.js"></script>
+<script>
+    var typed = new Typed('.animate', {
+      strings: [
+          "a student.",
+          "a developer.",
+          "a sports fanatic."
+      ],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true
+    });
+</script>
+<script>
+    $(window).scroll(function() {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
+    });
+</script>
+<script>
+    $(window).on("load",function(){
+      $(".loader-wrapper").fadeOut("slow");
+    });
+</script>
+
+</body>
+</html>
