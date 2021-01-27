@@ -17,6 +17,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 #hero {
   background-image: linear-gradient(to bottom, #6c9cd3 0%, #e7f0fd 100%);
