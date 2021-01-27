@@ -5,7 +5,7 @@
 }
 html {
   font-size: 20px;
-  background-image: linear-gradient(to right, #42f569 0%, #e7f0fd 100%);
+  background-image: linear-gradient(to right, #7da8da 0%, #e7f0fd 100%);
 }
 .img {
   width: 16rem;
@@ -19,7 +19,7 @@ html {
   justify-content: center;
 }
 #hero {
-  background-image: linear-gradient(to bottom, #42f569 0%, #e7f0fd 100%);
+  background-image: linear-gradient(to bottom, #6c9cd3 0%, #e7f0fd 100%);
   background-size: cover;
   background-position: top cover;
   position: relative;
@@ -130,7 +130,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #42f569;
+  background-color: #7da8da;
   display: flex;
   justify-content: center;
   align-items: center;
